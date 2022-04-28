@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Card</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="phone-camera"></div>
+      <div class="inner">
+        <div class="inner__bgblue"></div>
+        <div class="inner__title">CARD</div>
+        <img class="inner__img" src="./img/card.png" alt="card image" width="340" height="220">
+        <form action="http://echo.htmlacademy.ru/"  method="POST" autocomplete="off">
+          <div class="inner__controller">
+            <div class="controller-item">
+              <img src="./img/lock.svg" alt="lock card">
+              <div class="text-list--first">
+                <p class="item-tittle">Lock card</p>
+                <p class="item-text">You can unlock it later</p>
+              </div>
+              <label class="label">
+                <input class="input visually-hidden" type="checkbox" id="Lock_card" name="Lock card">
+                <span class="input__controller"></span>
+              </label>
+            </div>
+            <div class="controller-item">
+              <img src="./img/plane.svg" alt="lock card">
+              <div class="text-list--second">
+                <p class="item-tittle">Payments abroad</p>
+                <p class="item-text">Enable your card  abroad</p>
+              </div>
+              <label class="label">
+                <input class="input visually-hidden" type="checkbox" id="Payments_abroad" name="Payments abroad">
+                <span class="input__controller"></span>
+              </label>
+            </div>
+            <div class="controller-item">
+              <img src="./img/laptop.svg" alt="lock card">
+              <div class="text-list--third">
+                <p class="item-tittle">Online payments</p>
+                <p class="item-text">Enable online transactions</p>
+              </div>
+              <label class="label">
+                <input class="input visually-hidden" type="checkbox" id="Online_payments" name="Online payments">
+                <span class="input__controller"></span>
+              </label>
+            </div>
+            <div class="controller-item">
+              <img src="./img/atm.svg" alt="lock card">
+              <div class="text-list--fourth">
+                <p class="item-tittle">ATM widthdrawals</p>
+                <p class="item-text">Enable ATM widthdrawals</p>
+              </div>
+              <label class="label">
+                <input class="input visually-hidden" type="checkbox" id="ATM_widthdrawals" name="ATM widthdrawals">
+                <span class="input__controller"></span>
+              </label>
+            </div>
+            <!-- <button type="submit">Submit</button> -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
